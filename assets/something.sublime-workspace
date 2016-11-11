@@ -1,0 +1,252 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"navOrigina",
+				"navOriginalHeight"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/student/Documents/TheInternetIsFake.github.io/assets/jquery.js",
+		"/Users/student/Documents/TheInternetIsFake.github.io/assets/something.js",
+		"/Users/student/Documents/TheInternetIsFake.github.io/_config.yml",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 4/final-script.js",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 3/final.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 2/work-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/work.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/DA.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 2/DA.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 3/work-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/final-idea-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/final-idea.html",
+		"/Users/student/Desktop/SAVE HERE/iOS Programming/dungle/youtubeAPI/Podfile",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 21/style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 20/about-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 8/header-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 6/tunnel-of-light.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 7/infinite-staircase.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 10/bezier-beauty.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 9/colorful-film.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 3/profile-app.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/world-clock.html",
+		"/Users/student/Downloads/Web as Artistic Platform 2/Arts-style.css",
+		"/Users/student/Downloads/Web as Artistic Platform 2/arts-script.js",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/style.css",
+		"/Users/student/Desktop/SAVE HERE/Web as Artistic Platform/Dung Le/Xavier/xavier.html",
+		"/Users/student/Desktop/index.html",
+		"/Users/student/Desktop/SAVE HERE/Web as Artistic Platform/Dung Le/ChildTheme/style.css",
+		"/Users/student/Desktop/SAVE HERE/Web as Artistic Platform/Dung Le/wordpress/wp-config.php",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/proposal.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/proposal-style.css",
+		"/Users/student/Desktop/styles.css",
+		"/Users/student/Desktop/SAVE HERE/Web as Artistic Platform/InternetArtsRevised.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/Arts-style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/InternetArts.html",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/index.html",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/styles.css",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/script.js",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/svg-demo/demo.html",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/svg-demo/demo.js",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/demo.js",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/midi/midi_demo.html",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/stream.js",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/synth.js",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/midi_demo.html",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/audio.js",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/replayer.js",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/style.css",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 2/exercise2.html",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/script.js",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder/index.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 3/exercise1.html",
+		"/Users/student/Library/Caches/Cleanup At Startup/com.fetchsoftworks.Fetch/Fetch Temporary Folder 1/hrose.css",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/exercise2.html",
+		"/Users/student/Desktop/SAVE HERE/Nicholas Howard - Javascript/exercise1.html",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/index.html",
+		"/Users/student/Desktop/SAVE HERE/Hannah Rose/exercise1.html",
+		"/Users/student/Desktop/SAVE HERE/style.css",
+		"/Users/student/Desktop/SAVE HERE/index.html",
+		"/Users/student/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "something.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
