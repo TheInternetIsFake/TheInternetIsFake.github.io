@@ -16,10 +16,32 @@ $( document ).ready(function() {
 // hue of page changes to new random value
 // proportion = get random number between 0 and 1 - Math.random()
 // hueValue = multiply proportion by 360 
+	var hueValue=Math.random()*360;
+	var saturationValue, lightnessValue;
+	var stuck=true;
 
 	$('body').click(
 		function(event) {
-			$('body').css('background-color','hsl('+Math.random()*360+', '+event.pageX*100/$('body').width()+'%, '+event.pageY*100/$('body').height()+'%)')
+			if(stuck){hueValue=Math.random()*360;}
+			stuck=!stuck;
+			$('body').css('background-color','hsl('+hueValue+', '+event.pageX*100/$('body').width()+'%, '+event.pageY*100/$('body').height()+'%)');
+			if(event.pageY/$('body').height()<.5)
+				{$('body').css('color','white');}
+			else
+				{$('body').css('color','black');}
+		});
+
+	$('body').mousemove(
+		function(event) {
+			if(!stuck)
+				{saturationValue=event.pageX*100/$('body').width();
+				lightnessValue=event.pageY*100/$('body').height();
+				$('body').css('background-color','hsl('+hueValue+', '+saturationValue+'%, '+lightnessValue+'%)');
+				if(event.pageY/$('body').height()<.5)
+					{$('body').css('color','white');}
+				else
+					{$('body').css('color','black');};
+			}
 		});
 // saturationValue = horizontal position*100/width
 // 
