@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	var saturationValue, lightnessValue;
 	var stuck=true;
 
-	$('body').click(
+	$(document).click(
 		function(event) {
 			if(stuck){hueValue=Math.random()*360;}
 			stuck=!stuck;
@@ -31,7 +31,7 @@ $( document ).ready(function() {
 				{$('body').css('color','black');}
 		});
 
-	$('body').mousemove(
+	$(document).mousemove(
 		function(event) {
 			if(!stuck)
 				{saturationValue=event.pageX*100/$('body').width();
