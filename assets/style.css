@@ -1,3 +1,9 @@
 html {
 	font-size:100%;
 }
+
+.character {
+	position: absolute;
+	font-size: 60px;
+	z-index: 1000000;
+}

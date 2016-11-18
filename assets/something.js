@@ -20,18 +20,34 @@ $( document ).ready(function() {
 	var saturationValue, lightnessValue;
 	var stuck=true;
 
-	$(document).click(
+	$('body').keydown(
 		function(event) {
-			if(stuck){hueValue=Math.random()*360;}
-			stuck=!stuck;
-			$('body').css('background-color','hsl('+hueValue+', '+event.pageX*100/$('body').width()+'%, '+event.pageY*100/$('body').height()+'%)');
+			//if(stuck){hueValue=Math.random()*360;}
+			stuck=false;
+			/*$('body').css('background-color','hsl('+hueValue+', '+event.pageX*100/$('body').width()+'%, '+event.pageY*100/$('body').height()+'%)');
 			if(event.pageY/$('body').height()<.5)
 				{$('body').css('color','white');}
 			else
-				{$('body').css('color','black');}
+				{$('body').css('color','black');}*/
 		});
 
-	$(document).mousemove(
+	$('body').keyup(
+		function(event) {
+			//if(stuck){hueValue=Math.random()*360;}
+			stuck=true;
+			/*$('body').css('background-color','hsl('+hueValue+', '+event.pageX*100/$('body').width()+'%, '+event.pageY*100/$('body').height()+'%)');
+			if(event.pageY/$('body').height()<.5)
+				{$('body').css('color','white');}
+			else
+				{$('body').css('color','black');}*/
+		});
+
+	$('body').scroll(
+		function(event) {
+			if(!stuck){hueValue=Math.random()*360;}
+		})
+
+	$('body').mousemove(
 		function(event) {
 			if(!stuck)
 				{saturationValue=event.pageX*100/$('body').width();
@@ -43,8 +59,9 @@ $( document ).ready(function() {
 					{$('body').css('color','black');};
 			}
 		});
+	var hoverable=false;
 
-	var characters = {
+var characters = {
 	count: 0,
 	appear: function(menu) {
 		// select a geometric char from array
@@ -65,16 +82,15 @@ $( document ).ready(function() {
 	},
 	move: function(destX, destY, count) {
 		var whichChar = Math.floor(Math.random()*characters.count);
-		alert(characters.count);
 		$('.character').animate(
 			{ top: destY, left: destX },
 		  	3000
 		);
-	}
+	},
 	// characters.newColor();
 	// change the characters to a random color, using hsl values
-	newColor: function() {
-		$('.character').css('color','hsl('+Math.random()*360+', '+Math.random()*100+'%, '+Math.random()*100+'%)');
+	newColor: function(hueValue, saturationValue, lightnessValue) {
+		$('.character').css('color','hsl('+hueValue+', '+saturationValue+'%, '+lightnessValue+'%)');
 
 	},
 	// characters.newSize();
@@ -83,12 +99,32 @@ $( document ).ready(function() {
 		$('.character').css('font-size',Math.floor(Math.random()*350)+50+'%');
 	}
 }
+
 characters.appear(['•','◊','∆']);
-$('body').click( function(event) {
-	alert(event.pageX);
-	alert(event.pageY);
-	characters.move(event.pageX, event.pageY, characters.count)
+
+$('.character').dblclick( function(event) {
+	hoverable=!hoverable;
+});
+
+$('.character').mouseenter( function(event) {
+	if(hoverable)
+	{
+		characters.newColor(0, 100, 50);
+	}
 })
+
+$('.character').mouseleave( function(event) {
+	if(hoverable)
+	{
+		characters.newColor(0, 0, 0);
+	}
+})
+
+$('body').click( function(event) {
+	characters.move(event.pageX, event.pageY, characters.count);
+	//characters.newColor(Math.random()*360, Math.random()*100, Math.random()*100);
+	//characters.newSize();
+});
 
 // saturationValue = horizontal position*100/width
 // 
